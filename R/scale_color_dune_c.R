@@ -1,3 +1,12 @@
+#' Title
+#'
+#' @param name
+#' @param ...
+#'
+#' @return
+#' @export
+#'
+#' @examples
 scale_color_dune_c <- function(name,  ...) {
 
   if (missing(name)) {

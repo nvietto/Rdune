@@ -1,3 +1,12 @@
+#' Title
+#'
+#' @param name
+#' @param ...
+#'
+#' @return
+#' @export
+#'
+#' @examples
 scale_fill_dune_d <- function(name,  ...) {
 
   if (missing(name)) {

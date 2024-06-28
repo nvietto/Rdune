@@ -1,3 +1,8 @@
+#' Complete list of palettes.
+#'
+#' Use names(dune_palettes) to return all palette names.
+#'
+#' @export
 dune_palettes <- list(
   arrakis = c('#673115', '#874A24', '#A16038', '#B97F57', '#F7D9C0', '#CDA689'),
   atreides = c('#0C191E', '#91959E', '#657682', '#495B63', '#334349', '#1F2E35'),

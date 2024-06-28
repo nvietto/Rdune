@@ -1,3 +1,12 @@
+#' Title
+#'
+#' @param x
+#' @param ...
+#'
+#' @return
+#' @export
+#'
+#' @examples
 print.palette <- function(x, ...) {
   n <- length(x)
   old <- graphics::par(mar = c(0, 0, 0, 0))

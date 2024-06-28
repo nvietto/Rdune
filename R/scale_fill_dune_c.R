@@ -1,3 +1,12 @@
+#' Dune-Inspired Palettes for Plotting in ggplot2
+#'
+#' @param name
+#' @param ...
+#'
+#' @return
+#' @export
+#'
+#' @examples
 scale_fill_dune_c <- function(name,  ...) {
 
   if (missing(name)) {

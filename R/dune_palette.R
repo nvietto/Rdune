@@ -1,3 +1,13 @@
+#' Title
+#'
+#' @param name
+#' @param n
+#' @param type
+#'
+#' @return
+#' @export
+#'
+#' @examples
 dune_palette <- function(name, n, type = c("discrete", "continuous")) {
   type <- match.arg(type)
 
