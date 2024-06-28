@@ -1,0 +1,17 @@
+
+test_that("functionality of scales", {
+  expect_error(scale_color_dune_c(name = ))
+  expect_error(scale_color_dune_c(name = arrakis))
+  expect_error(scale_color_dune_c(name = "Arrakis"))
+  expect_error(scale_color_dune_d(name = ))
+  expect_error(scale_color_dune_d(name = fermen))
+  expect_error(scale_color_dune_d(name = "Fermen"))
+  expect_error(scale_fill_dune_c(name = ))
+  expect_error(scale_fill_dune_c(name = bene_gesserit))
+  expect_error(scale_fill_dune_c(name = "bene gesserit"))
+  expect_error(scale_fill_dune_c(name = "Bene_gesserit"))
+  expect_error(scale_fill_dune_d(name = ))
+  expect_error(scale_fill_dune_d(name = maythyknifechipandshatter_2))
+  expect_error(scale_fill_dune_d(name = "may thy knife chip and shatter_2"))
+  expect_error(scale_fill_dune_d(name = "Maythyknifechipandshatter_2"))
+})
