@@ -1,6 +1,6 @@
 Package: Rdune
 Type: Package
-Title: Creates color palettes inspired by the world of "Dune"
+Title: 
 Version: 0.1.0
 Author: person("Nicholas", "Vietto", email = "nicholasvietto@gmail.com", role = c("aut", "cre")) 
 Maintainer: Nicholas Vietto <nicholasvietto@gmail.com>
