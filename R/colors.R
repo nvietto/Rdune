@@ -1,7 +1,3 @@
-
-# Colors
-
-
 dune_palettes <- list(
   arrakis = c('#673115', '#874A24', '#A16038', '#B97F57', '#F7D9C0', '#CDA689'),
   atreides = c('#0C191E', '#91959E', '#657682', '#495B63', '#334349', '#1F2E35'),
@@ -11,10 +7,11 @@ dune_palettes <- list(
   corrino = c('#362B1F', '#5D4E46', '#7A6B68', '#C6C8D3', '#A4A6B1', '#8B898F'),
   fermen = c('#241F1A', '#F2E2C6', '#D1BC9C', '#A99375', '#7E6A52', '#504436'),
   harkonnen = c('#15232B', '#A9C6E1', '#7FA2BE', '#60839A', '#466476', '#2E4451'),
-  harkonnen_2 = c('#181818', '#8E8E8E', '#AFAFAF', '#DEDEDE', '#636363', '#424242'),
-  harkonnen_3 = c('#0A0F15', '#32373D', '#A6A9B0', '#757B80', '#4E545A', '#1B2127'),
+  harkonnen2 = c('#181818', '#8E8E8E', '#AFAFAF', '#DEDEDE', '#636363', '#424242'),
+  harkonnen3 = c('#0A0F15', '#32373D', '#A6A9B0', '#757B80', '#4E545A', '#1B2127'),
+  harkonnen_4 = c('#ba5d21', '#d2661c', '#dc5d08', '#cf5b0d', '#d15006', '#c1500b'),
   maythyknifechipandshatter = c('#21130B', '#DEA96E', '#A6713D', '#815732', '#603F26', '#43291A'),
-  maythyknifechipandshatter_2 = c('#292115', '#70654E', '#8C7F66', '#A99E85', '#E4EBDB', '#4B4534'),
+  maythyknifechipandshatter2 = c('#292115', '#70654E', '#8C7F66', '#A99E85', '#E4EBDB', '#4B4534'),
   sandworm = c('#181D18', '#393C31', '#DFD3B8', '#AC9275', '#84735D', '#5C5847'),
   sardaukar = c('#0C1015', '#1D2329', '#687582', '#515E6A', '#424E58', '#313B43'),
   whatsinthebox = c('#0D1111', '#181D1C', '#232A2A', '#323A3C', '#494C4E', '#7C7677'))
