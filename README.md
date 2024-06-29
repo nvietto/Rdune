@@ -41,12 +41,3 @@ names(dune_palettes)
 #> [13] "maythyknifechipandshatter2" "sandworm"                  
 #> [15] "sardaukar"                  "whatsinthebox"
 ```
-
-``` r
-#> [1] "arrakis"                    "atreides"                   "atreides2"                 
-#>  [4] "atreides3"                  "bene_gesserit"              "corrino"                   
-#>  [7] "fermen"                     "harkonnen"                  "harkonnen2"                
-#> [10] "harkonnen3"                 "harkonnen_4"                "maythyknifechipandshatter" 
-#> [13] "maythyknifechipandshatter2" "sandworm"                   "sardaukar"                 
-#> [16] "whatsinthebox"
-```
