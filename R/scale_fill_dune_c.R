@@ -5,6 +5,7 @@
 #' @return An object defining a continuous fill scale for use with ggplot2.
 #' @import ggplot2
 #' @examples
+#' library(ggplot2)
 #' ggplot(data = mtcars, aes(x = mpg, y = disp, fill = wt)) +
 #' geom_point() +
 #' scale_fill_dune_c("sardaukar")
