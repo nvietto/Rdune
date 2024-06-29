@@ -7,8 +7,6 @@
 #' @param type Specify either "continuous" or "discrete".
 #'  Use "continuous" if you want to automatically interpolate between colors.
 #' @return A vector of colors.
-#' @examples
-#' dune_palette("arrakis")
 #' @export
 dune_palette <- function(name, n, type = c("discrete", "continuous")) {
   type <- match.arg(type)
@@ -34,7 +32,7 @@ dune_palette <- function(name, n, type = c("discrete", "continuous")) {
                 grDevices::colorRampPalette(cols)(n),
                 discrete = cols[1:n]
   )
-  print.palette(out)
+
 
   structure(out, class = "palette", name = name)
 }
