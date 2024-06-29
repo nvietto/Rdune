@@ -6,6 +6,11 @@
 \usage{
 \method{print}{palette}(x, ...)
 }
+\arguments{
+\item{x}{Name of palette}
+
+\item{...}{Other arguments}
+}
 \description{
 Function for printing palette
 }
