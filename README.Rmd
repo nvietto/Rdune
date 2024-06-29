@@ -51,7 +51,7 @@ names(dune_palettes)
 </p>
 
 
-```{r}
+```{r, example1, fig.height = 3}
 library(ggplot2)
 
 ggplot(data = iris,

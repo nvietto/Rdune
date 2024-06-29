@@ -57,7 +57,7 @@ ggplot(data = iris,
     scale_color_dune_d(name = "maythyknifechipandshatter")
 ```
 
-<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+<img src="man/figures/README-example1-1.png" width="100%" />
 
 ## Palettes
 
