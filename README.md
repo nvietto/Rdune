@@ -3,13 +3,14 @@
 
 # Rdune
 
-{Rdune} provides color palettes inspired from Dune.
+The {Rdune} package offers a collection of color palettes inspired by
+“Dune,” designed for use in data visualization and graphics.
 
-Structure of the package was based on coding from the
+The structure of the code and creative inspiration were drawn from the
 [{PrettyCols}](https://github.com/nrennie/PrettyCols),
 [{wesanderson}](https://github.com/karthik/wesanderson),
 [{MetBrewer}](https://github.com/BlakeRMills/MetBrewer),
-[{vangogh}](https://github.com/cherylisabella/vangogh) packages.
+[{PNWColors}](https://github.com/jakelawlor/PNWColors) packages.
 
 Colors were selected using
 [{eyedroppeR}](https://github.com/doehm/eyedroppeR).
@@ -40,6 +41,23 @@ names(dune_palettes)
 #> [13] "maythyknifechipandshatter2" "sandworm"                  
 #> [15] "sardaukar"                  "whatsinthebox"
 ```
+
+### “May thy knife chip and shatter”
+
+<p align="center">
+<img src="figure/maythyknifechipandshatter.png" height="300" alt="Description of image">
+</p>
+
+``` r
+library(ggplot2)
+
+ggplot(data = iris,
+    mapping = aes(x = Sepal.Width, y = Sepal.Length, color = Species)) + 
+    geom_point(size = 2) + 
+    scale_color_dune_d(name = "maythyknifechipandshatter")
+```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
 ## Palettes
 
