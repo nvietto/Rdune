@@ -13,6 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
+
 # Rdune
 
 {Rdune} provides color palettes inspired from Dune. 
