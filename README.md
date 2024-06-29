@@ -8,7 +8,8 @@
 Structure of the package was based on coding from the
 [{PrettyCols}](https://github.com/nrennie/PrettyCols),
 [{wesanderson}](https://github.com/karthik/wesanderson),
-[{MetBrewer}](https://github.com/BlakeRMills/MetBrewer) packages.
+[{MetBrewer}](https://github.com/BlakeRMills/MetBrewer),
+[{vangogh}](https://github.com/cherylisabella/vangogh) packages.
 
 Colors were selected using
 [{eyedroppeR}](https://github.com/doehm/eyedroppeR).
@@ -23,9 +24,7 @@ You can install the development version of Rdune from
 devtools::install_github("nvietto/Rdune")
 ```
 
-## Usage
-
-This is a basic example which shows you how to solve a common problem:
+## How to use
 
 ``` r
 library(Rdune)
@@ -41,3 +40,55 @@ names(dune_palettes)
 #> [13] "maythyknifechipandshatter2" "sandworm"                  
 #> [15] "sardaukar"                  "whatsinthebox"
 ```
+
+## Palettes
+
+### Arrakis
+
+![](figure/Arrakis.png) \### House Atreides
+
+![](figure/Atreides.png) ![](figure/Atreides2.png)
+
+![](figure/Atreides3.png)
+
+### Bene Gesserit
+
+![](figure/bene_gesserit.png)
+
+### House Corrino
+
+![](figure/corrino.png)
+
+### Fremen
+
+![](figure/fermen.png)
+
+![](figure/fermen2.png)
+
+### House Harkonnen
+
+![](figure/harkonnen.png)
+
+![](figure/harkonnen2.png)
+
+![](figure/harkonnen3.png)
+
+![](figure/harkonnen4.png)
+
+### “May thy knife chip and shatter”
+
+![](figure/maythyknifechipandshatter.png)
+
+![](figure/maythyknifechipandshatter2.png)
+
+### Sandworm
+
+![](figure/sandworm.png)
+
+### Sardaukar
+
+![](figure/sardaukar.png)
+
+### What is in the box?
+
+![](figure/whatsinthebox.png)
