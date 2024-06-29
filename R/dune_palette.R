@@ -34,6 +34,8 @@ dune_palette <- function(name, n, type = c("discrete", "continuous")) {
                 grDevices::colorRampPalette(cols)(n),
                 discrete = cols[1:n]
   )
+  print.palette(out)
+
   structure(out, class = "palette", name = name)
 }
 
