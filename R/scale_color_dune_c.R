@@ -1,12 +1,15 @@
-#' Title
+#' Dune palettes for plotting with ggplot2
 #'
-#' @param name
-#' @param ...
-#'
-#' @return
-#' @export
-#'
+#' @param name Name of palette. Run \code{names(dune_palettes)} to view options
+#' @param ... Other arguments passed on to \code{\link[ggplot2]{scale_color_gradientn}}
+#' @return An object defining a continuous color scale for use with ggplot2.
+#' @import ggplot2
 #' @examples
+#' library(ggplot2)
+#' ggplot(data = mtcars, aes(x = mpg, y = disp, color = hp)) +
+#' geom_point() +
+#' scale_color_dune_c("atreides3")
+#' @export
 scale_color_dune_c <- function(name,  ...) {
 
   if (missing(name)) {

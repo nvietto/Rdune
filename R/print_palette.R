@@ -1,12 +1,8 @@
-#' Title
-#'
-#' @param x
-#' @param ...
-#'
-#' @return
+#' Function for printing palette
 #' @export
-#'
-#' @examples
+#' @importFrom graphics rect par image text
+#' @importFrom grDevices rgb
+
 print.palette <- function(x, ...) {
   n <- length(x)
   old <- graphics::par(mar = c(0, 0, 0, 0))

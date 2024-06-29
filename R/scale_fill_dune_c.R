@@ -1,12 +1,14 @@
-#' Dune-Inspired Palettes for Plotting in ggplot2
+#' Dune palettes for plotting with ggplot2
 #'
-#' @param name
-#' @param ...
-#'
-#' @return
-#' @export
-#'
+#' @param name Name of palette. Run \code{names(dune_palettes)} to view options
+#' @param ... Other arguments passed on to \code{\link[ggplot2]{scale_fill_gradientn}}
+#' @return An object defining a continuous fill scale for use with ggplot2.
+#' @import ggplot2
 #' @examples
+#' ggplot(data = mtcars, aes(x = mpg, y = disp, fill = wt)) +
+#' geom_point() +
+#' scale_fill_dune_c("sardaukar")
+#' @export
 scale_fill_dune_c <- function(name,  ...) {
 
   if (missing(name)) {
