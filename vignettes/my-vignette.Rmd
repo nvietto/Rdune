@@ -1,5 +1,5 @@
 ---
-title: "my-vignette"
+title: "ggplot2 Vignette"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{my-vignette}
@@ -15,17 +15,23 @@ knitr::opts_chunk$set(
 ```
 
 
+## Install
 
-## Load
+Be sure to uncomment and execute the two lines of code. This will enable you to utilize the developmental versions of the package.
 
 ```{r setup}
+# install.packages("devtools")
+# devtools::install_github("nvietto/Rdune")
+
 library(Rdune)
 ```
 
 
-## View palette names
-```{r}
 
+
+
+## Names
+```{r, fig.align='center'}
 names(dune_palettes)
 
 
@@ -33,8 +39,65 @@ names(dune_palettes)
 
 
 
+## Data
+
 ```{r}
-library(ggplot2)
+df <- data.frame(
+  ID = 1:5,                             
+  Name = c("Alice", "Bob", "Carol", "Dave", "Eve"), 
+  Age = c(25, 30, 22, 35, 28),         
+  Score = c(85.5, 90.3, 78.9, 88.0, 92.4),
+  Passed = c(TRUE, TRUE, FALSE, TRUE, TRUE)
+)
+
+df
 
 ```
+
+
+## Discrete
+
+```{r, fig.align='center'}
+library(ggplot2)
+
+ggplot(
+  data = df,
+  mapping = aes(x = Name, y = Age, fill = Name)) +
+  geom_col() +
+  scale_fill_dune_d(name = "harkonnen_4")
+
+ggplot(data = iris,
+    mapping = aes(x = Sepal.Width, y = Sepal.Length, color = Species)) + 
+    geom_point(size = 2) + 
+    scale_color_dune_d(name = "maythyknifechipandshatter")
+
+```
+
+
+
+## Continious 
+
+```{r, fig.align='center'}
+ggplot(
+  data = df,
+  mapping = aes(x = Name, y = Score, fill = Score)
+) +
+  geom_col() +
+  scale_fill_dune_c(name = "whatsinthebox")
+
+ggplot(iris) + 
+    aes(x = Species, y = Sepal.Width,
+        color = Sepal.Length) + 
+    geom_point(size = 2) + 
+    scale_color_dune_c(name = "sandworm")
+
+
+```
+
+
+
+
+
+
+
 
