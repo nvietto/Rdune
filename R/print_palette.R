@@ -1,4 +1,6 @@
 #' Function for printing palette
+#' @param x Name of palette
+#' @param ... Other arguments
 #' @export
 #' @importFrom graphics rect par image text
 #' @importFrom grDevices rgb
