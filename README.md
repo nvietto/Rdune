@@ -45,50 +45,81 @@ names(dune_palettes)
 
 ### Arrakis
 
-![](figure/Arrakis.png) \### House Atreides
+<p align="center">
+<img src="figure/Arrakis.png" height="300" alt="Description of image">
+</p>
 
-![](figure/Atreides.png) ![](figure/Atreides2.png)
+### House Atreides
 
-![](figure/Atreides3.png)
+<p align="center">
+<img src="figure/Atreides.png" height="300" alt="Description of image">
+</p>
+<p align="center">
+<img src="figure/Atreides2.png" height="300" alt="Description of image">
+</p>
+<p align="center">
+<img src="figure/Atreides3.png" height="300" alt="Description of image">
+</p>
 
 ### Bene Gesserit
 
-![](figure/bene_gesserit.png)
+<p align="center">
+<img src="figure/bene_gesserit.png" height="300" alt="Description of image">
+</p>
 
 ### House Corrino
 
-![](figure/corrino.png)
+<p align="center">
+<img src="figure/corrino.png" height="300" alt="Description of image">
+</p>
 
 ### Fremen
 
-![](figure/fermen.png)
-
-![](figure/fermen2.png)
+<p align="center">
+<img src="figure/fermen.png" height="300" alt="Description of image">
+</p>
+<p align="center">
+<img src="figure/fermen2.png" height="300" alt="Description of image">
+</p>
 
 ### House Harkonnen
 
-![](figure/harkonnen.png)
-
-![](figure/harkonnen2.png)
-
-![](figure/harkonnen3.png)
-
-![](figure/harkonnen4.png)
+<p align="center">
+<img src="figure/harkonnen.png" height="300" alt="Description of image">
+</p>
+<p align="center">
+<img src="figure/harkonnen2.png" height="300" alt="Description of image">
+</p>
+<p align="center">
+<img src="figure/harkonnen3.png" height="300" alt="Description of image">
+</p>
+<p align="center">
+<img src="figure/harkonnen4.png" height="300" alt="Description of image">
+</p>
 
 ### “May thy knife chip and shatter”
 
-![](figure/maythyknifechipandshatter.png)
-
-![](figure/maythyknifechipandshatter2.png)
+<p align="center">
+<img src="figure/maythyknifechipandshatter.png" height="300" alt="Description of image">
+</p>
+<p align="center">
+<img src="figure/maythyknifechipandshatter2.png" height="300" alt="Description of image">
+</p>
 
 ### Sandworm
 
-![](figure/sandworm.png)
+<p align="center">
+<img src="figure/sandworm.png" height="300" alt="Description of image">
+</p>
 
 ### Sardaukar
 
-![](figure/sardaukar.png)
+<p align="center">
+<img src="figure/sardaukar.png" height="300" alt="Description of image">
+</p>
 
-### What is in the box?
+### “What is in the box?”
 
-![](figure/whatsinthebox.png)
+<p align="center">
+<img src="figure/whatsinthebox.png" height="300" alt="Description of image">
+</p>
