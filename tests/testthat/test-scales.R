@@ -15,4 +15,3 @@ test_that("functionality of scales", {
   expect_error(scale_fill_dune_d(name = "may thy knife chip and shatter_2"))
   expect_error(scale_fill_dune_d(name = "Maythyknifechipandshatter_2"))
 })
-
