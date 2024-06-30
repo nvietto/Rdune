@@ -22,6 +22,3 @@ A vector of colors.
 \description{
 Creates color palettes inspired by "Dune"
 }
-\examples{
-dune_palette("arrakis")
-}
