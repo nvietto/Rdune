@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 ```
 
 
-# Rdune
+# Rdune <img src="man/figures/logo.png" align="right" width="120" />
 
 The {Rdune} package offers a collection of color palettes inspired by "Dune," designed for use in data visualization and graphics. 
 
@@ -47,7 +47,7 @@ names(dune_palettes)
 ### "May thy knife chip and shatter"
 
 <p align="center">
-  <img src="figure/maythyknifechipandshatter.png" height="300" alt="Description of image">
+  <img src="man/figures/maythyknifechipandshatter.png" height="300" alt="Description of image">
 </p>
 
 
@@ -67,7 +67,7 @@ ggplot(data = iris,
 ### Arrakis
 
 <p align="center">
-  <img src="figure/Arrakis.png" height="300" alt="Description of image">
+  <img src="man/figures/Arrakis.png" height="300" alt="Description of image">
 </p>
 
 
@@ -75,16 +75,16 @@ ggplot(data = iris,
 
 
 <p align="center">
-  <img src="figure/Atreides.png" height="300" alt="Description of image">
+  <img src="man/figures/Atreides.png" height="300" alt="Description of image">
 </p>
 
 <p align="center">
-  <img src="figure/Atreides2.png" height="300" alt="Description of image">
+  <img src="man/figures/Atreides2.png" height="300" alt="Description of image">
 </p>
 
 
 <p align="center">
-  <img src="figure/Atreides3.png" height="300" alt="Description of image">
+  <img src="man/figures/Atreides3.png" height="300" alt="Description of image">
 </p>
 
 
@@ -92,46 +92,46 @@ ggplot(data = iris,
 ### Bene Gesserit
 
 <p align="center">
-  <img src="figure/bene_gesserit.png" height="300" alt="Description of image">
+  <img src="man/figures/bene_gesserit.png" height="300" alt="Description of image">
 </p>
 
 
 ### House Corrino
 
 <p align="center">
-  <img src="figure/corrino.png" height="300" alt="Description of image">
+  <img src="man/figures/corrino.png" height="300" alt="Description of image">
 </p>
 
 ### Fremen
 
 <p align="center">
-  <img src="figure/fermen.png" height="300" alt="Description of image">
+  <img src="man/figures/fermen.png" height="300" alt="Description of image">
 </p>
 
 
 <p align="center">
-  <img src="figure/fermen2.png" height="300" alt="Description of image">
+  <img src="man/figures/fermen2.png" height="300" alt="Description of image">
 </p>
 
 
 ### House Harkonnen
 
 <p align="center">
-  <img src="figure/harkonnen.png" height="300" alt="Description of image">
+  <img src="man/figures/harkonnen.png" height="300" alt="Description of image">
 </p>
 
 <p align="center">
-  <img src="figure/harkonnen2.png" height="300" alt="Description of image">
-</p>
-
-
-<p align="center">
-  <img src="figure/harkonnen3.png" height="300" alt="Description of image">
+  <img src="man/figures/harkonnen2.png" height="300" alt="Description of image">
 </p>
 
 
 <p align="center">
-  <img src="figure/harkonnen4.png" height="300" alt="Description of image">
+  <img src="man/figures/harkonnen3.png" height="300" alt="Description of image">
+</p>
+
+
+<p align="center">
+  <img src="man/figures/harkonnen4.png" height="300" alt="Description of image">
 </p>
 
 
@@ -143,19 +143,19 @@ ggplot(data = iris,
 ### "May thy knife chip and shatter"
 
 <p align="center">
-  <img src="figure/maythyknifechipandshatter.png" height="300" alt="Description of image">
+  <img src="man/figures/maythyknifechipandshatter.png" height="300" alt="Description of image">
 </p>
 
 
 <p align="center">
-  <img src="figure/maythyknifechipandshatter2.png" height="300" alt="Description of image">
+  <img src="man/figures/maythyknifechipandshatter2.png" height="300" alt="Description of image">
 </p>
 
 ### Sandworm 
 
 
 <p align="center">
-  <img src="figure/sandworm.png" height="300" alt="Description of image">
+  <img src="man/figures/sandworm.png" height="300" alt="Description of image">
 </p>
 
 
@@ -163,14 +163,14 @@ ggplot(data = iris,
 ### Sardaukar
 
 <p align="center">
-  <img src="figure/sardaukar.png" height="300" alt="Description of image">
+  <img src="man/figures/sardaukar.png" height="300" alt="Description of image">
 </p>
 
 
 ### "What is in the box?"
 
 <p align="center">
-  <img src="figure/whatsinthebox.png" height="300" alt="Description of image">
+  <img src="man/figures/whatsinthebox.png" height="300" alt="Description of image">
 </p>
 
 
