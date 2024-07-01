@@ -4,7 +4,8 @@
 # Rdune <img src="man/figures/logo.png" align="right" width="120" />
 
 The {Rdune} package offers a collection of color palettes inspired by
-“Dune,” designed for use in data visualization and graphics.
+“Dune,” designed for use in data visualizations and graphics with
+{ggplot2}.
 
 The structure of the code and creative inspiration were drawn from the
 [{PrettyCols}](https://github.com/nrennie/PrettyCols),
@@ -43,6 +44,19 @@ names(dune_palettes)
 #> [17] "whatsinthebox"
 ```
 
+## View palette
+
+``` r
+
+pal <- dune_palette("atreides")
+
+print.palette(pal)
+```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+
+## Examples
+
 ### “May thy knife chip and shatter”
 
 <p align="center">
@@ -59,6 +73,25 @@ ggplot(data = iris,
 ```
 
 <img src="man/figures/README-example1-1.png" width="100%" />
+
+### House Atreides
+
+<p align="center">
+<img src="man/figures/Atreides3.png" height="300" alt="Description of image">
+</p>
+
+``` r
+library(ggplot2)
+
+ggplot(data.frame(x = rnorm(10000), y = rnorm(10000)),
+       aes(x = x, y = y)) +
+  geom_hex() + 
+  theme_minimal() +
+  scale_fill_dune_c(name = "atreides3") +
+  labs(x = "X-axis Label", y = "Y-axis Label", fill = "Legend")
+```
+
+<img src="man/figures/README-example2-1.png" width="100%" />
 
 ## Palettes
 
