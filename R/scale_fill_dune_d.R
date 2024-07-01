@@ -8,7 +8,7 @@
 #' library(ggplot2)
 #' ggplot(data = mtcars, aes(x = mpg, y = disp, fill = factor(cyl))) +
 #' geom_point() +
-#' scale_fill_dune_d("harkonnen_4")
+#' scale_fill_dune_d("harkonnen4")
 #' @export
 scale_fill_dune_d <- function(name,  ...) {
 
