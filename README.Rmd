@@ -85,12 +85,12 @@ ggplot(data = iris,
 ```{r, example2, fig.height=3}
 library(ggplot2)
 
-ggplot(data.frame(x = rnorm(10000), y = rnorm(10000)),
+ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
        aes(x = x, y = y)) +
   geom_hex() + 
   theme_minimal() +
   scale_fill_dune_c(name = "atreides3") +
-  labs(x = "X-axis Label", y = "Y-axis Label", fill = "Legend")
+  labs(x = "X-axis", y = "Y-axis", fill = "Legend")
 
 
 ```
