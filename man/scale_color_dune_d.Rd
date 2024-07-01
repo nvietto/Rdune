@@ -21,5 +21,5 @@ Dune palettes for plotting with ggplot2
 library(ggplot2)
 ggplot(data = mtcars, aes(x = mpg, y = disp, color = factor(cyl))) +
 geom_point() +
-scale_color_dune_d("harkonnen_4")
+scale_color_dune_d("harkonnen4")
 }
