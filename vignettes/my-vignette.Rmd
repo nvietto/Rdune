@@ -37,6 +37,18 @@ names(dune_palettes)
 
 ```
 
+## Print colors
+
+```{r, fig.align='center'}
+
+pal <- dune_palette("harkonnen4")
+
+print.palette(pal)
+
+pal
+
+```
+
 
 
 ## Data
