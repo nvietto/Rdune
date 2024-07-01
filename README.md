@@ -35,11 +35,12 @@ names(dune_palettes)
 #>  [1] "arrakis"                    "atreides"                  
 #>  [3] "atreides2"                  "atreides3"                 
 #>  [5] "bene_gesserit"              "corrino"                   
-#>  [7] "fermen"                     "harkonnen"                 
-#>  [9] "harkonnen2"                 "harkonnen3"                
-#> [11] "harkonnen_4"                "maythyknifechipandshatter" 
-#> [13] "maythyknifechipandshatter2" "sandworm"                  
-#> [15] "sardaukar"                  "whatsinthebox"
+#>  [7] "fermen"                     "fermen2"                   
+#>  [9] "harkonnen"                  "harkonnen2"                
+#> [11] "harkonnen3"                 "harkonnen4"                
+#> [13] "maythyknifechipandshatter"  "maythyknifechipandshatter2"
+#> [15] "sandworm"                   "sardaukar"                 
+#> [17] "whatsinthebox"
 ```
 
 ### “May thy knife chip and shatter”

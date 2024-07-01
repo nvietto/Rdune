@@ -35,6 +35,7 @@ devtools::install_github("nvietto/Rdune")
 ## How to use
 
 
+
 ```{r example}
 library(Rdune)
 

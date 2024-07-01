@@ -46,11 +46,9 @@ df <- data.frame(
   ID = 1:5,                             
   Name = c("Alice", "Bob", "Carol", "Dave", "Eve"), 
   Age = c(25, 30, 22, 35, 28),         
-  Score = c(85.5, 90.3, 78.9, 88.0, 92.4),
-  Passed = c(TRUE, TRUE, FALSE, TRUE, TRUE)
-)
+  Score = c(85.5, 90.3, 78.9, 88.0, 92.4))
 
-df
+
 
 ```
 
@@ -64,12 +62,14 @@ ggplot(
   data = df,
   mapping = aes(x = Name, y = Age, fill = Name)) +
   geom_col() +
-  scale_fill_dune_d(name = "harkonnen_4")
+  scale_fill_dune_d(name = "harkonnen4")
 
-ggplot(data = iris,
-    mapping = aes(x = Sepal.Width, y = Sepal.Length, color = Species)) + 
-    geom_point(size = 2) + 
-    scale_color_dune_d(name = "maythyknifechipandshatter")
+
+ggplot(
+  data = iris,
+  mapping = aes(x = Sepal.Length, fill = Species)) +
+  geom_density(alpha = 0.5) + 
+  scale_fill_dune_d(name = "harkonnen2")
 
 ```
 
@@ -78,12 +78,11 @@ ggplot(data = iris,
 ## Continious 
 
 ```{r, fig.align='center'}
-ggplot(
-  data = df,
-  mapping = aes(x = Name, y = Score, fill = Score)
-) +
-  geom_col() +
-  scale_fill_dune_c(name = "whatsinthebox")
+
+ggplot(data.frame(x = rnorm(10000), y = rnorm(10000)),
+       aes(x = x, y = y)) +
+  geom_hex() + 
+  scale_fill_dune_c(name = "harkonnen")
 
 ggplot(iris) + 
     aes(x = Species, y = Sepal.Width,
