@@ -122,6 +122,10 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
   <img src="man/figures/Atreides3.png" height="300" alt="Description of image">
 </p>
 
+<p align="center">
+  <img src="man/figures/Atreides4.png" height="300" alt="Description of image">
+</p>
+
 
 
 ### Bene Gesserit
