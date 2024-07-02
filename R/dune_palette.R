@@ -11,10 +11,6 @@
 dune_palette <- function(name, n, type = c("discrete", "continuous")) {
   type <- match.arg(type)
 
-  if (!(type %in% c("discrete", "continuous"))) {
-    stop("Invalid palette type. Please choose either discrete or continuous.")
-  }
-
   cols <- dune_palettes[[name]]
   if (is.null(cols)) {
     stop("Palette name not found. Please provide a valid palette name or check the spelling.")
@@ -22,6 +18,10 @@ dune_palette <- function(name, n, type = c("discrete", "continuous")) {
 
   if (missing(n)) {
     n <- length(cols)
+  }
+
+  if (!(type %in% c("discrete", "continuous"))) {
+    stop("Invalid palette type. Please choose either discrete or continuous.")
   }
 
   if (type == "discrete" && n > length(cols)) {
@@ -32,7 +32,6 @@ dune_palette <- function(name, n, type = c("discrete", "continuous")) {
                 continuous = grDevices::colorRampPalette(cols)(n),
                 discrete = cols[1:n]
   )
-
 
   structure(out, class = "palette", name = name)
 }
