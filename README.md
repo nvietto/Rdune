@@ -83,7 +83,7 @@ ggplot(data = iris,
 ``` r
 library(ggplot2)
 
-ggplot(data.frame(x = rnorm(900), y = rnorm(900)),
+ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
        aes(x = x, y = y)) +
   geom_hex() + 
   theme_minimal() +
