@@ -40,7 +40,6 @@ names(dune_palettes)
 ## Print colors
 
 ```{r, fig.align='center'}
-
 pal <- dune_palette("harkonnen4")
 
 print.palette(pal)
@@ -66,7 +65,7 @@ df <- data.frame(
 
 ## Discrete
 
-```{r, fig.align='center'}
+```{r, fig.align='center', fig.height=3, fig.width=5}
 library(ggplot2)
 
 ggplot(
@@ -74,8 +73,6 @@ ggplot(
   mapping = aes(x = Name, y = Age, fill = Name)) +
   geom_col() +
   scale_fill_dune_d(name = "harkonnen4")
-
-
 ggplot(
   data = iris,
   mapping = aes(x = Sepal.Length, fill = Species)) +
@@ -88,13 +85,11 @@ ggplot(
 
 ## Continious 
 
-```{r, fig.align='center'}
-
+```{r, fig.align='center', fig.height=3, fig.width=5}
 ggplot(data.frame(x = rnorm(10000), y = rnorm(10000)),
        aes(x = x, y = y)) +
   geom_hex() + 
   scale_fill_dune_c(name = "harkonnen")
-
 ggplot(iris) + 
     aes(x = Species, y = Sepal.Width,
         color = Sepal.Length) + 
