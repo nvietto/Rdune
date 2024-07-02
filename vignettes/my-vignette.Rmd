@@ -56,9 +56,8 @@ df <- data.frame(
   ID = 1:5,                             
   Name = c("Alice", "Bob", "Carol", "Dave", "Eve"), 
   Age = c(25, 30, 22, 35, 28),         
-  Score = c(85.5, 90.3, 78.9, 88.0, 92.4))
-
-
+  Score = c(85.5, 90.3, 78.9, 88.0, 92.4),
+  Group = factor(c("A", "B", "C", "B", "A")))
 
 ```
 
@@ -67,17 +66,16 @@ df <- data.frame(
 
 ```{r, fig.align='center', fig.height=3, fig.width=5}
 library(ggplot2)
-
-ggplot(
-  data = df,
-  mapping = aes(x = Name, y = Age, fill = Name)) +
-  geom_col() +
-  scale_fill_dune_d(name = "harkonnen4")
 ggplot(
   data = iris,
   mapping = aes(x = Sepal.Length, fill = Species)) +
   geom_density(alpha = 0.5) + 
   scale_fill_dune_d(name = "harkonnen2")
+ggplot(
+  data = df,
+  mapping = aes(x = Name, y = Age, color = Group)) +
+  geom_col(linewidth= 3, fill = "white")+
+  scale_color_dune_d(name = "fermen2")
 
 ```
 
