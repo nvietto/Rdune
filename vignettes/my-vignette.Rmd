@@ -56,7 +56,6 @@ df <- data.frame(
   ID = 1:5,                             
   Name = c("Alice", "Bob", "Carol", "Dave", "Eve"), 
   Age = c(25, 30, 22, 35, 28),         
-  Score = c(85.5, 90.3, 78.9, 88.0, 92.4),
   Group = factor(c("A", "B", "C", "B", "A")))
 
 ```
