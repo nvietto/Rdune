@@ -11,6 +11,9 @@
 
 \item{...}{Other arguments}
 }
+\value{
+A vector of colors.
+}
 \description{
 Function for printing palette
 }
