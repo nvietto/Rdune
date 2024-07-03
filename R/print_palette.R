@@ -1,12 +1,13 @@
 #' Function for printing palette
 #' @param x Name of palette
 #' @param ... Other arguments
-#' @export
 #' @importFrom graphics rect par image text
 #' @importFrom grDevices rgb
+#' @return A vector of colors.
 #' @examples
 #' pal <- dune_palette("atreides")
 #' print.palette(pal)
+#' @export
 
 print.palette <- function(x, ...) {
   n <- length(x)
