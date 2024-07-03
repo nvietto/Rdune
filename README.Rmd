@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 ```
 
 
-# Rdune <img src="man/figures/logo.png" align="right" width="120" />
+# Rdune <img src="man/figures/logo.jpg" align="right" width="120" />
 
 The {Rdune} package offers a collection of color palettes inspired by "Dune," designed for use in data visualizations and graphics with {ggplot2}.
 
@@ -33,8 +33,6 @@ devtools::install_github("nvietto/Rdune")
 ```
 
 ## How to use
-
-
 
 ```{r example}
 library(Rdune)
@@ -60,7 +58,7 @@ print.palette(pal)
 ### "May thy knife chip and shatter"
 
 <p align="center">
-  <img src="man/figures/maythyknifechipandshatter.png" height="300" alt="Description of image">
+  <img src="man/figures/maythyknifechipandshatter.jpg" height="300" alt="Description of image">
 </p>
 
 
@@ -78,7 +76,7 @@ ggplot(data = iris,
 ### House Atreides 
 
 <p align="center">
-  <img src="man/figures/Atreides3.png" height="300" alt="Description of image">
+  <img src="man/figures/Atreides3.jpg" height="300" alt="Description of image">
 </p>
 
 
@@ -102,7 +100,7 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 ### Arrakis
 
 <p align="center">
-  <img src="man/figures/Arrakis.png" height="300" alt="Description of image">
+  <img src="man/figures/Arrakis.jpg" height="300" alt="Description of image">
 </p>
 
 
@@ -110,20 +108,20 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 
 
 <p align="center">
-  <img src="man/figures/Atreides.png" height="300" alt="Description of image">
+  <img src="man/figures/Atreides.jpg" height="300" alt="Description of image">
 </p>
 
 <p align="center">
-  <img src="man/figures/Atreides2.png" height="300" alt="Description of image">
+  <img src="man/figures/Atreides2.jpg" height="300" alt="Description of image">
 </p>
 
 
 <p align="center">
-  <img src="man/figures/Atreides3.png" height="300" alt="Description of image">
+  <img src="man/figures/Atreides3.jpg" height="300" alt="Description of image">
 </p>
 
 <p align="center">
-  <img src="man/figures/Atreides4.png" height="300" alt="Description of image">
+  <img src="man/figures/Atreides4.jpg" height="300" alt="Description of image">
 </p>
 
 
@@ -131,46 +129,46 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 ### Bene Gesserit
 
 <p align="center">
-  <img src="man/figures/bene_gesserit.png" height="300" alt="Description of image">
+  <img src="man/figures/bene_gesserit.jpg" height="300" alt="Description of image">
 </p>
 
 
 ### House Corrino
 
 <p align="center">
-  <img src="man/figures/corrino.png" height="300" alt="Description of image">
+  <img src="man/figures/corrino.jpg" height="300" alt="Description of image">
 </p>
 
 ### Fremen
 
 <p align="center">
-  <img src="man/figures/fermen.png" height="300" alt="Description of image">
+  <img src="man/figures/fermen.jpg" height="300" alt="Description of image">
 </p>
 
 
 <p align="center">
-  <img src="man/figures/fermen2.png" height="300" alt="Description of image">
+  <img src="man/figures/fermen2.jpg" height="300" alt="Description of image">
 </p>
 
 
 ### House Harkonnen
 
 <p align="center">
-  <img src="man/figures/harkonnen.png" height="300" alt="Description of image">
+  <img src="man/figures/harkonnen.jpg" height="300" alt="Description of image">
 </p>
 
 <p align="center">
-  <img src="man/figures/harkonnen2.png" height="300" alt="Description of image">
-</p>
-
-
-<p align="center">
-  <img src="man/figures/harkonnen3.png" height="300" alt="Description of image">
+  <img src="man/figures/harkonnen2.jpg" height="300" alt="Description of image">
 </p>
 
 
 <p align="center">
-  <img src="man/figures/harkonnen4.png" height="300" alt="Description of image">
+  <img src="man/figures/harkonnen3.jpg" height="300" alt="Description of image">
+</p>
+
+
+<p align="center">
+  <img src="man/figures/harkonnen4.jpg" height="300" alt="Description of image">
 </p>
 
 
@@ -182,19 +180,19 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 ### "May thy knife chip and shatter"
 
 <p align="center">
-  <img src="man/figures/maythyknifechipandshatter.png" height="300" alt="Description of image">
+  <img src="man/figures/maythyknifechipandshatter.jpg" height="300" alt="Description of image">
 </p>
 
 
 <p align="center">
-  <img src="man/figures/maythyknifechipandshatter2.png" height="300" alt="Description of image">
+  <img src="man/figures/maythyknifechipandshatter2.jpg" height="300" alt="Description of image">
 </p>
 
 ### Sandworm 
 
 
 <p align="center">
-  <img src="man/figures/sandworm.png" height="300" alt="Description of image">
+  <img src="man/figures/sandworm.jpg" height="300" alt="Description of image">
 </p>
 
 
@@ -202,14 +200,14 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 ### Sardaukar
 
 <p align="center">
-  <img src="man/figures/sardaukar.png" height="300" alt="Description of image">
+  <img src="man/figures/sardaukar.jpg" height="300" alt="Description of image">
 </p>
 
 
 ### "What is in the box?"
 
 <p align="center">
-  <img src="man/figures/whatsinthebox.png" height="300" alt="Description of image">
+  <img src="man/figures/whatsinthebox.jpg" height="300" alt="Description of image">
 </p>
 
 

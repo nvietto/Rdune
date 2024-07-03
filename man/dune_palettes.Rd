@@ -3,7 +3,8 @@
 \docType{data}
 \name{dune_palettes}
 \alias{dune_palettes}
-\title{Complete list of palettes.}
+\title{Complete list of palettes.
+Use names(dune_palettes) to return all palette names.}
 \format{
 An object of class \code{list} of length 18.
 }
@@ -11,6 +12,7 @@ An object of class \code{list} of length 18.
 dune_palettes
 }
 \description{
+Complete list of palettes.
 Use names(dune_palettes) to return all palette names.
 }
 \keyword{datasets}

@@ -1,5 +1,4 @@
 #' Dune palettes for plotting with ggplot2
-#'
 #' @param name Name of palette. Run \code{names(dune_palettes)} to view options
 #' @param ... Other arguments passed on to \code{\link[ggplot2]{discrete_scale}}
 #' @return  An object defining a discrete fill scale for use with ggplot2.

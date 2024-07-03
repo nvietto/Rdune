@@ -14,3 +14,7 @@
 \description{
 Function for printing palette
 }
+\examples{
+pal <- dune_palette("atreides")
+print.palette(pal)
+}

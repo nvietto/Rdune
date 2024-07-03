@@ -4,6 +4,9 @@
 #' @export
 #' @importFrom graphics rect par image text
 #' @importFrom grDevices rgb
+#' @examples
+#' pal <- dune_palette("atreides")
+#' print.palette(pal)
 
 print.palette <- function(x, ...) {
   n <- length(x)

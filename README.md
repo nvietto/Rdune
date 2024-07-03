@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Rdune <img src="man/figures/logo.png" align="right" width="120" />
+# Rdune <img src="man/figures/logo.jpg" align="right" width="120" />
 
 The {Rdune} package offers a collection of color palettes inspired by
 “Dune,” designed for use in data visualizations and graphics with
@@ -35,13 +35,13 @@ library(Rdune)
 names(dune_palettes)
 #>  [1] "arrakis"                    "atreides"                  
 #>  [3] "atreides2"                  "atreides3"                 
-#>  [5] "bene_gesserit"              "corrino"                   
-#>  [7] "fermen"                     "fermen2"                   
-#>  [9] "harkonnen"                  "harkonnen2"                
-#> [11] "harkonnen3"                 "harkonnen4"                
-#> [13] "maythyknifechipandshatter"  "maythyknifechipandshatter2"
-#> [15] "sandworm"                   "sardaukar"                 
-#> [17] "whatsinthebox"
+#>  [5] "atreides_4"                 "bene_gesserit"             
+#>  [7] "corrino"                    "fermen"                    
+#>  [9] "fermen2"                    "harkonnen"                 
+#> [11] "harkonnen2"                 "harkonnen3"                
+#> [13] "harkonnen4"                 "maythyknifechipandshatter" 
+#> [15] "maythyknifechipandshatter2" "sandworm"                  
+#> [17] "sardaukar"                  "whatsinthebox"
 ```
 
 ## View palette
@@ -60,7 +60,7 @@ print.palette(pal)
 ### “May thy knife chip and shatter”
 
 <p align="center">
-<img src="man/figures/maythyknifechipandshatter.png" height="300" alt="Description of image">
+<img src="man/figures/maythyknifechipandshatter.jpg" height="300" alt="Description of image">
 </p>
 
 ``` r
@@ -77,7 +77,7 @@ ggplot(data = iris,
 ### House Atreides
 
 <p align="center">
-<img src="man/figures/Atreides3.png" height="300" alt="Description of image">
+<img src="man/figures/Atreides3.jpg" height="300" alt="Description of image">
 </p>
 
 ``` r
@@ -98,83 +98,83 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 ### Arrakis
 
 <p align="center">
-<img src="man/figures/Arrakis.png" height="300" alt="Description of image">
+<img src="man/figures/Arrakis.jpg" height="300" alt="Description of image">
 </p>
 
 ### House Atreides
 
 <p align="center">
-<img src="man/figures/Atreides.png" height="300" alt="Description of image">
+<img src="man/figures/Atreides.jpg" height="300" alt="Description of image">
 </p>
 <p align="center">
-<img src="man/figures/Atreides2.png" height="300" alt="Description of image">
+<img src="man/figures/Atreides2.jpg" height="300" alt="Description of image">
 </p>
 <p align="center">
-<img src="man/figures/Atreides3.png" height="300" alt="Description of image">
+<img src="man/figures/Atreides3.jpg" height="300" alt="Description of image">
 </p>
 <p align="center">
-<img src="man/figures/Atreides4.png" height="300" alt="Description of image">
+<img src="man/figures/Atreides4.jpg" height="300" alt="Description of image">
 </p>
 
 ### Bene Gesserit
 
 <p align="center">
-<img src="man/figures/bene_gesserit.png" height="300" alt="Description of image">
+<img src="man/figures/bene_gesserit.jpg" height="300" alt="Description of image">
 </p>
 
 ### House Corrino
 
 <p align="center">
-<img src="man/figures/corrino.png" height="300" alt="Description of image">
+<img src="man/figures/corrino.jpg" height="300" alt="Description of image">
 </p>
 
 ### Fremen
 
 <p align="center">
-<img src="man/figures/fermen.png" height="300" alt="Description of image">
+<img src="man/figures/fermen.jpg" height="300" alt="Description of image">
 </p>
 <p align="center">
-<img src="man/figures/fermen2.png" height="300" alt="Description of image">
+<img src="man/figures/fermen2.jpg" height="300" alt="Description of image">
 </p>
 
 ### House Harkonnen
 
 <p align="center">
-<img src="man/figures/harkonnen.png" height="300" alt="Description of image">
+<img src="man/figures/harkonnen.jpg" height="300" alt="Description of image">
 </p>
 <p align="center">
-<img src="man/figures/harkonnen2.png" height="300" alt="Description of image">
+<img src="man/figures/harkonnen2.jpg" height="300" alt="Description of image">
 </p>
 <p align="center">
-<img src="man/figures/harkonnen3.png" height="300" alt="Description of image">
+<img src="man/figures/harkonnen3.jpg" height="300" alt="Description of image">
 </p>
 <p align="center">
-<img src="man/figures/harkonnen4.png" height="300" alt="Description of image">
+<img src="man/figures/harkonnen4.jpg" height="300" alt="Description of image">
 </p>
 
 ### “May thy knife chip and shatter”
 
 <p align="center">
-<img src="man/figures/maythyknifechipandshatter.png" height="300" alt="Description of image">
+<img src="man/figures/maythyknifechipandshatter.jpg" height="300" alt="Description of image">
 </p>
 <p align="center">
-<img src="man/figures/maythyknifechipandshatter2.png" height="300" alt="Description of image">
+<img src="man/figures/maythyknifechipandshatter2.jpg" height="300" alt="Description of image">
 </p>
 
 ### Sandworm
 
 <p align="center">
-<img src="man/figures/sandworm.png" height="300" alt="Description of image">
+<img src="man/figures/sandworm.jpg" height="300" alt="Description of image">
 </p>
 
 ### Sardaukar
 
 <p align="center">
-<img src="man/figures/sardaukar.png" height="300" alt="Description of image">
+<img src="man/figures/sardaukar.jpg" height="300" alt="Description of image">
 </p>
 
 ### “What is in the box?”
 
 <p align="center">
-<img src="man/figures/whatsinthebox.png" height="300" alt="Description of image">
+<img src="man/figures/whatsinthebox.jpg" height="300" alt="Description of image">
 </p>
