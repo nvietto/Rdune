@@ -35,7 +35,7 @@ library(Rdune)
 names(dune_palettes)
 #>  [1] "arrakis"                    "atreides"                  
 #>  [3] "atreides2"                  "atreides3"                 
-#>  [5] "atreides_4"                 "bene_gesserit"             
+#>  [5] "atreides4"                  "bene_gesserit"             
 #>  [7] "corrino"                    "fermen"                    
 #>  [9] "fermen2"                    "harkonnen"                 
 #> [11] "harkonnen2"                 "harkonnen3"                

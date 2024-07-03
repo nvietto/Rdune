@@ -106,7 +106,6 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 
 ### House Atreides
 
-
 <p align="center">
   <img src="man/figures/Atreides.jpg" height="300" alt="Description of image">
 </p>
