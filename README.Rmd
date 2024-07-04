@@ -91,7 +91,6 @@ ggplot(
 ```
 
 
-
 ## Palettes
 
 ### Arrakis

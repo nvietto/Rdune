@@ -40,7 +40,7 @@ names(dune_palettes)
 #>  [9] "fermen2"                   "harkonnen"                
 #> [11] "harkonnen2"                "harkonnen3"               
 #> [13] "harkonnen4"                "maythyknifechipandshatter"
-#> [15] "sandworm"                  "whatsinthebox"
+#> [15] "sandworm"
 ```
 
 ## View palette
