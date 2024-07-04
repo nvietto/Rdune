@@ -16,5 +16,5 @@ dune_palettes <- list(
   harkonnen3 = c("#30261F", "#59493A", "#846F59", "#AE987E", "#D5C0A7", "#F0DFCC"),
   harkonnen4 = c("#ba5d21", "#d2661c", "#dc5d08", "#cf5b0d", "#d15006", "#c1500b"),
   maythyknifechipandshatter = c("#21130B", "#DEA96E", "#A6713D", "#815732", "#603F26", "#43291A"),
-  sandworm = c("#181D18", "#393C31", "#DFD3B8", "#AC9275", "#84735D", "#5C5847"),
+  sandworm = c("#181D18", "#393C31", "#DFD3B8", "#AC9275", "#84735D", "#5C5847")
 )
