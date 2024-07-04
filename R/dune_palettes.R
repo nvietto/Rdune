@@ -13,11 +13,9 @@ dune_palettes <- list(
   fermen2 = c('#191513', '#A65A21', '#CD7930', '#804C28', '#5E3B28', '#3D2920'),
   harkonnen = c('#749ec4', '#6088a8', '#557d9b', '#4a708b', '#40647d', '#34556c'),
   harkonnen2 = c('#999999', '#818181', '#757575', '#5e5e5e', '#575757', '#4a4a4a'),
-  harkonnen3 = c('#0A0F15', '#32373D', '#A6A9B0', '#757B80', '#4E545A', '#1B2127'),
+  harkonnen3 = c('#30261F', '#59493A', '#846F59', '#AE987E', '#D5C0A7', '#F0DFCC'),
   harkonnen4 = c('#ba5d21', '#d2661c', '#dc5d08', '#cf5b0d', '#d15006', '#c1500b'),
   maythyknifechipandshatter = c('#21130B', '#DEA96E', '#A6713D', '#815732', '#603F26', '#43291A'),
-  maythyknifechipandshatter2 = c('#292115', '#70654E', '#8C7F66', '#A99E85', '#E4EBDB', '#4B4534'),
   sandworm = c('#181D18', '#393C31', '#DFD3B8', '#AC9275', '#84735D', '#5C5847'),
-  sardaukar = c('#0C1015', '#1D2329', '#687582', '#515E6A', '#424E58', '#313B43'),
   whatsinthebox = c('#0D1111', '#181D1C', '#232A2A', '#323A3C', '#494C4E', '#7C7677'))
 
