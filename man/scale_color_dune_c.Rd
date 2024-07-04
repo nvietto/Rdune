@@ -12,7 +12,7 @@ scale_color_dune_c(name, ...)
 \item{...}{Other arguments passed on to \code{\link[ggplot2]{scale_color_gradientn}}}
 }
 \value{
-An object defining a continuous color scale for use with ggplot2.
+An object defining a continuous color scale for use with 'ggplot2'.
 }
 \description{
 Dune palettes for plotting with 'ggplot2'
@@ -20,6 +20,6 @@ Dune palettes for plotting with 'ggplot2'
 \examples{
 library(ggplot2)
 ggplot(data = mtcars, aes(x = mpg, y = disp, color = hp)) +
-geom_point() +
-scale_color_dune_c("atreides3")
+  geom_point() +
+  scale_color_dune_c("atreides3")
 }

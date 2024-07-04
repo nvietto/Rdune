@@ -12,7 +12,7 @@ scale_fill_dune_d(name, ...)
 \item{...}{Other arguments passed on to \code{\link[ggplot2]{discrete_scale}}}
 }
 \value{
-An object defining a discrete fill scale for use with ggplot2.
+An object defining a discrete fill scale for use with 'ggplot2'.
 }
 \description{
 Dune palettes for plotting with 'ggplot2'
@@ -20,6 +20,6 @@ Dune palettes for plotting with 'ggplot2'
 \examples{
 library(ggplot2)
 ggplot(data = mtcars, aes(x = mpg, y = disp, fill = factor(cyl))) +
-geom_point() +
-scale_fill_dune_d("harkonnen4")
+  geom_point() +
+  scale_fill_dune_d("harkonnen4")
 }

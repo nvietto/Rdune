@@ -6,7 +6,7 @@
 \title{Complete list of palettes.
 Use names(dune_palettes) to return all palette names.}
 \format{
-An object of class \code{list} of length 16.
+An object of class \code{list} of length 15.
 }
 \usage{
 dune_palettes
