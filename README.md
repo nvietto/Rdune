@@ -58,7 +58,7 @@ print.palette(pal)
 ### “May thy knife chip and shatter”
 
 <p align="center">
-<img src="man/figures/maythyknifechipandshatter.jpg" height="300" alt="Description of image">
+<img src="man/figures/maythyknifechipandshatter.jpg" height="300" >
 </p>
 
 ``` r
@@ -77,7 +77,7 @@ ggplot(
 ### House Atreides
 
 <p align="center">
-<img src="man/figures/Atreides3.jpg" height="300" alt="Description of image">
+<img src="man/figures/Atreides3.jpg" height="300" >
 </p>
 
 ``` r
