@@ -33,15 +33,14 @@ library(Rdune)
 
 # See all palettes
 names(dune_palettes)
-#>  [1] "arrakis"                    "atreides"                  
-#>  [3] "atreides2"                  "atreides3"                 
-#>  [5] "atreides4"                  "bene_gesserit"             
-#>  [7] "corrino"                    "fermen"                    
-#>  [9] "fermen2"                    "harkonnen"                 
-#> [11] "harkonnen2"                 "harkonnen3"                
-#> [13] "harkonnen4"                 "maythyknifechipandshatter" 
-#> [15] "maythyknifechipandshatter2" "sandworm"                  
-#> [17] "sardaukar"                  "whatsinthebox"
+#>  [1] "arrakis"                   "atreides"                 
+#>  [3] "atreides2"                 "atreides3"                
+#>  [5] "atreides4"                 "bene_gesserit"            
+#>  [7] "corrino"                   "fermen"                   
+#>  [9] "fermen2"                   "harkonnen"                
+#> [11] "harkonnen2"                "harkonnen3"               
+#> [13] "harkonnen4"                "maythyknifechipandshatter"
+#> [15] "sandworm"                  "whatsinthebox"
 ```
 
 ## View palette
@@ -157,24 +156,9 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 <p align="center">
 <img src="man/figures/maythyknifechipandshatter.jpg" height="300" alt="Description of image">
 </p>
-<p align="center">
-<img src="man/figures/maythyknifechipandshatter2.jpg" height="300" alt="Description of image">
-</p>
 
 ### Sandworm
 
 <p align="center">
 <img src="man/figures/sandworm.jpg" height="300" alt="Description of image">
-</p>
-
-### Sardaukar
-
-<p align="center">
-<img src="man/figures/sardaukar.jpg" height="300" alt="Description of image">
-</p>
-
-### “What is in the box?”
-
-<p align="center">
-<img src="man/figures/whatsinthebox.jpg" height="300" alt="Description of image">
 </p>

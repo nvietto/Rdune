@@ -171,11 +171,6 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 </p>
 
 
-
-
-
-
-
 ### "May thy knife chip and shatter"
 
 <p align="center">
@@ -183,35 +178,12 @@ ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
 </p>
 
 
-<p align="center">
-  <img src="man/figures/maythyknifechipandshatter2.jpg" height="300" alt="Description of image">
-</p>
-
 ### Sandworm 
 
 
 <p align="center">
   <img src="man/figures/sandworm.jpg" height="300" alt="Description of image">
 </p>
-
-
-
-### Sardaukar
-
-<p align="center">
-  <img src="man/figures/sardaukar.jpg" height="300" alt="Description of image">
-</p>
-
-
-### "What is in the box?"
-
-<p align="center">
-  <img src="man/figures/whatsinthebox.jpg" height="300" alt="Description of image">
-</p>
-
-
-
-
 
 
 
