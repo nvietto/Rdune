@@ -1,5 +1,11 @@
 # Rdune 1.0.1
 
+* Resubmission to CRAN
+
+* Removed a couple palattes and their corresponding images in the readme to reduce size
+
+* Edited description and R files to address CRAN comments
+
 # Rdune 1.0.0
 
 * First submission to CRAN
