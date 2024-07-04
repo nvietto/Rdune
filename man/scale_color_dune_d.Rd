@@ -2,7 +2,7 @@
 % Please edit documentation in R/scale_color_dune_d.R
 \name{scale_color_dune_d}
 \alias{scale_color_dune_d}
-\title{Dune palettes for plotting with ggplot2}
+\title{Dune palettes for plotting with 'ggplot2'}
 \usage{
 scale_color_dune_d(name, ...)
 }
@@ -15,7 +15,7 @@ scale_color_dune_d(name, ...)
 An object defining a discrete color scale for use with ggplot2.
 }
 \description{
-Dune palettes for plotting with ggplot2
+Dune palettes for plotting with 'ggplot2'
 }
 \examples{
 library(ggplot2)
