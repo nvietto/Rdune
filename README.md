@@ -46,7 +46,6 @@ names(dune_palettes)
 ## View palette
 
 ``` r
-
 pal <- dune_palette("atreides")
 
 print.palette(pal)
@@ -65,10 +64,12 @@ print.palette(pal)
 ``` r
 library(ggplot2)
 
-ggplot(data = iris,
-    mapping = aes(x = Sepal.Width, y = Sepal.Length, color = Species)) + 
-    geom_point(size = 2) + 
-    scale_color_dune_d(name = "maythyknifechipandshatter")
+ggplot(
+  data = iris,
+  mapping = aes(x = Sepal.Width, y = Sepal.Length, color = Species)
+) +
+  geom_point(size = 2) +
+  scale_color_dune_d(name = "maythyknifechipandshatter")
 ```
 
 <img src="man/figures/README-example1-1.png" width="100%" />
@@ -82,9 +83,11 @@ ggplot(data = iris,
 ``` r
 library(ggplot2)
 
-ggplot(data.frame(x = rnorm(1000), y = rnorm(1000)),
-       aes(x = x, y = y)) +
-  geom_hex() + 
+ggplot(
+  data.frame(x = rnorm(1000), y = rnorm(1000)),
+  aes(x = x, y = y)
+) +
+  geom_hex() +
   theme_minimal() +
   scale_fill_dune_c(name = "atreides3") +
   labs(x = "X-axis", y = "Y-axis", fill = "Legend")

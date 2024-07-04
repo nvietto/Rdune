@@ -28,10 +28,9 @@ dune_palette <- function(name, n, type = c("discrete", "continuous")) {
   }
 
   out <- switch(type,
-                continuous = grDevices::colorRampPalette(cols)(n),
-                discrete = cols[1:n]
+    continuous = grDevices::colorRampPalette(cols)(n),
+    discrete = cols[1:n]
   )
 
   structure(out, class = "palette", name = name)
 }
-

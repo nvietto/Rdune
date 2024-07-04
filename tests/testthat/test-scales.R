@@ -1,4 +1,3 @@
-
 test_that("functionality of scales", {
   expect_error(scale_color_dune_c(name = ))
   expect_error(scale_color_dune_c(name = arrakis))
