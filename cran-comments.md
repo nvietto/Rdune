@@ -1,9 +1,9 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Reduced the size of the package.
+* Added doi citation for Wickham (2016).
 
-* Added single quotes around description of 'ggplot2' in R files.
+* Added single quotes around description of 'ggplot2' and title in Description files.
 
 
 ## R CMD check results
