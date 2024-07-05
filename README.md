@@ -4,7 +4,7 @@
 # Rdune <img src="man/figures/logo.jpg" align="right" width="120" />
 
 The {Rdune} package offers a collection of color palettes inspired by
-“Dune,” designed for use in data visualizations and graphics with
+‘Dune’, designed for use in data visualizations and graphics with
 {ggplot2}.
 
 The structure of the code and creative inspiration were drawn from the

@@ -2,7 +2,7 @@
 % Please edit documentation in R/dune_palette.R
 \name{dune_palette}
 \alias{dune_palette}
-\title{Creates color palettes inspired by "Dune"}
+\title{Creates color palettes inspired by 'Dune'}
 \usage{
 dune_palette(name, n, type = c("discrete", "continuous"))
 }
@@ -20,5 +20,5 @@ Use "continuous" if you want to automatically interpolate between colors.}
 A vector of colors.
 }
 \description{
-Creates color palettes inspired by "Dune"
+Creates color palettes inspired by 'Dune'
 }
