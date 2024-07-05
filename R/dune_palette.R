@@ -1,4 +1,4 @@
-#' Creates color palettes inspired by "Dune"
+#' Creates color palettes inspired by 'Dune'
 #' @param name Name of palette. Run \code{names(dune_palettes)} to view options.
 #' @param n Number of desired colors: If the requested number of colors exceeds the available palette,
 #'  additional colors will be automatically interpolated. If the number of colors (n) is not specified,
