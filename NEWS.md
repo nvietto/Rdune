@@ -1,3 +1,5 @@
+# Rdune 1.0.2
+
 # Rdune 1.0.1
 
 * Resubmission to CRAN
