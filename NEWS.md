@@ -1,10 +1,10 @@
 # Rdune 1.1.0
 
-* Accepted to CRAN 🎉
-
-* Added a help file (Rdune-package.R) and made minor adjustments to the README and Vignette
+* Added a help file, just enter ?Rdune in console after install
 
 # Rdune 1.0.2
+
+* Accepted to CRAN 🎉
 
 * Resubmission to CRAN
 
