@@ -26,20 +26,6 @@ Be sure to uncomment and execute the two lines of code. This will enable you to 
 library(Rdune)
 ```
 
-## Checking the package documentation
-
-To check the documentation of each function, uncomment the syntax below and paste it into your console.
-
-```{r}
-# ?dune_palette
-# ?dune_palettes
-# ?scale_color_dune_c
-# ?scale_color_dune_d
-# ?scale_fill_dune_c
-# ?scale_fill_dune_d
-```
-
-
 
 ## Names
 ```{r, fig.align='center'}

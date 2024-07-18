@@ -16,6 +16,10 @@ knitr::opts_chunk$set(
 
 # Rdune <img src="man/figures/logo.jpg" align="right" width="120" />
 
+<!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/Rdune)](https://CRAN.R-project.org/package=Rdune)
+<!-- badges: end -->
+
 The {Rdune} package offers a collection of color palettes inspired by 'Dune', designed for use in data visualizations and graphics with {ggplot2}.
 
 The structure of the code and creative inspiration were drawn from the [{PrettyCols}](https://github.com/nrennie/PrettyCols), [{wesanderson}](https://github.com/karthik/wesanderson), [{MetBrewer}](https://github.com/BlakeRMills/MetBrewer), [{PNWColors}](https://github.com/jakelawlor/PNWColors) packages.
@@ -25,7 +29,13 @@ Colors were selected using [{eyedroppeR}](https://github.com/doehm/eyedroppeR).
 
 ## Installation
 
-You can install the development version of Rdune from [GitHub](https://github.com/) with:
+{Rdune} is available on CRAN. Install using:
+
+``` r
+install.packages("Rdune")
+```
+
+Or you can install the development version of Rdune from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")

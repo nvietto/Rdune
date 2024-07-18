@@ -3,6 +3,12 @@
 
 # Rdune <img src="man/figures/logo.jpg" align="right" width="120" />
 
+<!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/Rdune)](https://CRAN.R-project.org/package=Rdune)
+<!-- badges: end -->
+
 The {Rdune} package offers a collection of color palettes inspired by
 ‘Dune’, designed for use in data visualizations and graphics with
 {ggplot2}.
@@ -18,7 +24,13 @@ Colors were selected using
 
 ## Installation
 
-You can install the development version of Rdune from
+{Rdune} is available on CRAN. Install using:
+
+``` r
+install.packages("Rdune")
+```
+
+Or you can install the development version of Rdune from
 [GitHub](https://github.com/) with:
 
 ``` r
