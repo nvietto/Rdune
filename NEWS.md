@@ -1,4 +1,8 @@
-# Rdune (development version)
+# Rdune 1.1.0
+
+* Accepted to CRAN 🎉
+
+* Added a help file (Rdune-package.R) and made minor adjustments to the README and Vignette
 
 # Rdune 1.0.2
 
