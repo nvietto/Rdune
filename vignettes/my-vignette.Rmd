@@ -1,8 +1,8 @@
 ---
-title: "ggplot2 Vignette"
+title: "ggplot2 vignette"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{my-vignette}
+  %\VignetteIndexEntry{ggplot2-vignette}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
