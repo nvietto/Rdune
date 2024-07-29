@@ -23,6 +23,8 @@ The structure of the code and creative inspiration were drawn from the
 Colors were selected using
 [{eyedroppeR}](https://github.com/doehm/eyedroppeR).
 
+See <https://nvietto.github.io/Rdune/> for full documentation.
+
 ## Installation
 
 {Rdune} is available on CRAN. Install using:
