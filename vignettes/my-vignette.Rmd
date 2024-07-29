@@ -77,9 +77,13 @@ ggplot(
 ## Continious 
 
 ```{r, fig.align='center', fig.height=3, fig.width=5}
-ggplot(diamonds, aes(price, carat)) +
-  geom_hex() +
-  scale_fill_dune_c(name = "harkonnen")
+ggplot(
+  data = df,
+  mapping = aes(x = Name, y = Age, fill = ID)
+) +
+  geom_col() + 
+  scale_fill_dune_c("harkonnen3")
+
 ggplot(
   data = iris,
   mapping = aes(x = Species, y = Sepal.Width, color = Sepal.Length)
@@ -87,10 +91,4 @@ ggplot(
   geom_point(size = 2) +
   scale_color_dune_c(name = "sandworm")
 ```
-
-
-
-
-
-
 
