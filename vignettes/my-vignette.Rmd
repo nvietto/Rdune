@@ -1,5 +1,5 @@
 ---
-title: "ggplot2 vignette"
+title: "ggplot2-vignette"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{ggplot2-vignette}
