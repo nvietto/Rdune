@@ -1,6 +1,4 @@
-## Resubmission
 
-Added a pkgdown site 
 
 ## R CMD check results
 
