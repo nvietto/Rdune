@@ -12,6 +12,7 @@ Enables the use of color palettes inspired by the 'Dune' movies. These palettes 
 Useful links:
 \itemize{
   \item \url{https://github.com/nvietto/Rdune}
+  \item \url{https://nvietto.github.io/Rdune/}
   \item Report bugs at \url{https://github.com/nvietto/Rdune/issues}
 }
 
