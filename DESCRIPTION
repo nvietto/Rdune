@@ -22,5 +22,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
-URL: https://github.com/nvietto/Rdune
+URL: https://github.com/nvietto/Rdune, https://nvietto.github.io/Rdune/
 BugReports: https://github.com/nvietto/Rdune/issues
