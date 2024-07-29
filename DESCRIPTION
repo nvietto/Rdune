@@ -1,7 +1,7 @@
 Package: Rdune
 Type: Package
 Title: 'Creates Color Palettes Inspired by Dune'
-Version: 1.1.0.9000
+Version: 1.1.1
 Authors@R: person(given = "Nicholas",
                   family = "Vietto", 
                   email = "nicholasvietto@gmail.com", 
