@@ -7,7 +7,7 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/Rdune)](https://CRAN.R-project.org/package=Rdune)
-[![](https://cranlogs.r-pkg.org/badges/Rdune)](https://cran.r-project.org/package=Rdune)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/Rdune)](https://cran.r-project.org/package=Rdune)
 <!-- badges: end -->
 
 The {Rdune} package offers a collection of color palettes inspired by
