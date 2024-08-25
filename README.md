@@ -8,6 +8,7 @@
 [![CRAN
 status](https://www.r-pkg.org/badges/version/Rdune)](https://CRAN.R-project.org/package=Rdune)
 [![](https://cranlogs.r-pkg.org/badges/grand-total/Rdune)](https://cran.r-project.org/package=Rdune)
+[![R-CMD-check](https://github.com/nvietto/Rdune/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nvietto/Rdune/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The {Rdune} package offers a collection of color palettes inspired by
