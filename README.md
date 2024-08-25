@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check.yaml](https://github.com/nvietto/Rdune/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nvietto/Rdune/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/nvietto/Rdune/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nvietto/Rdune/actions/workflows/R-CMD-check.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/Rdune)](https://CRAN.R-project.org/package=Rdune)
 [![](https://cranlogs.r-pkg.org/badges/grand-total/Rdune)](https://cran.r-project.org/package=Rdune)
