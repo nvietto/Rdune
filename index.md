@@ -1,0 +1,149 @@
+# Rdune ![](reference/figures/logo.jpg)
+
+The {Rdune} package offers a collection of color palettes inspired by
+‘Dune’, designed for use in data visualizations and graphics with
+{ggplot2}.
+
+The structure of the code and creative inspiration were drawn from the
+[{PrettyCols}](https://github.com/nrennie/PrettyCols),
+[{wesanderson}](https://github.com/karthik/wesanderson),
+[{MetBrewer}](https://github.com/BlakeRMills/MetBrewer),
+[{PNWColors}](https://github.com/jakelawlor/PNWColors) packages.
+
+Colors were selected using
+[{eyedroppeR}](https://github.com/doehm/eyedroppeR).
+
+## Installation
+
+{Rdune} is available on CRAN. Install using:
+
+``` r
+
+install.packages("Rdune")
+```
+
+Or you can install the development version of Rdune from
+[GitHub](https://github.com/) with:
+
+``` r
+
+# install.packages("devtools")
+devtools::install_github("nvietto/Rdune")
+```
+
+## How to use
+
+``` r
+
+library(Rdune)
+
+# See all palettes
+names(dune_palettes)
+#>  [1] "arrakis"                   "atreides"                 
+#>  [3] "atreides2"                 "atreides3"                
+#>  [5] "atreides4"                 "bene_gesserit"            
+#>  [7] "corrino"                   "fermen"                   
+#>  [9] "fermen2"                   "harkonnen"                
+#> [11] "harkonnen2"                "harkonnen3"               
+#> [13] "harkonnen4"                "maythyknifechipandshatter"
+#> [15] "sandworm"
+```
+
+## View palette
+
+``` r
+
+pal <- dune_palette("atreides")
+
+print.palette(pal)
+```
+
+![](reference/figures/README-unnamed-chunk-2-1.png)
+
+## Examples
+
+### “May thy knife chip and shatter”
+
+![](reference/figures/maythyknifechipandshatter.jpg)
+
+``` r
+
+library(ggplot2)
+
+ggplot(
+  data = iris,
+  mapping = aes(x = Sepal.Width, y = Sepal.Length, color = Species)
+) +
+  geom_point(size = 2) +
+  scale_color_dune_d(name = "maythyknifechipandshatter")
+```
+
+![](reference/figures/README-example1-1.png)
+
+### House Atreides
+
+![](reference/figures/Atreides3.jpg)
+
+``` r
+
+library(ggplot2)
+
+ggplot(
+  data.frame(x = rnorm(1000), y = rnorm(1000)),
+  aes(x = x, y = y)
+) +
+  geom_hex() +
+  theme_minimal() +
+  scale_fill_dune_c(name = "atreides3") +
+  labs(x = "X-axis", y = "Y-axis", fill = "Legend")
+```
+
+![](reference/figures/README-example2-1.png)
+
+## Palettes
+
+### Arrakis
+
+![](reference/figures/Arrakis.jpg)
+
+### House Atreides
+
+![](reference/figures/Atreides.jpg)
+
+![](reference/figures/Atreides2.jpg)
+
+![](reference/figures/Atreides3.jpg)
+
+![](reference/figures/Atreides4.jpg)
+
+### Bene Gesserit
+
+![](reference/figures/bene_gesserit.jpg)
+
+### House Corrino
+
+![](reference/figures/corrino.jpg)
+
+### Fremen
+
+![](reference/figures/fermen.jpg)
+
+![](reference/figures/fermen2.jpg)
+
+### House Harkonnen
+
+![](reference/figures/harkonnen.jpg)
+
+![](reference/figures/harkonnen2.jpg)
+
+![](reference/figures/harkonnen3.jpg)
+
+![](reference/figures/harkonnen4.jpg)
+
+### “May thy knife chip and shatter”
+
+![](reference/figures/maythyknifechipandshatter.jpg)
+
+### Sandworm
+
+![](reference/figures/sandworm.jpg)
