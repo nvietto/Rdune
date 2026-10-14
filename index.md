@@ -132,8 +132,6 @@ ggplot(
 
 ### House Harkonnen
 
-![](reference/figures/harkonnen.jpg)
-
 ![](reference/figures/harkonnen2.jpg)
 
 ![](reference/figures/harkonnen3.jpg)
