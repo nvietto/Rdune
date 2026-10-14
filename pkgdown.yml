@@ -3,7 +3,7 @@ pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   my-vignette: my-vignette.html
-last_built: 2026-10-14T18:12Z
+last_built: 2026-10-14T18:17Z
 urls:
   reference: https://nvietto.github.io/Rdune/reference
   article: https://nvietto.github.io/Rdune/articles

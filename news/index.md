@@ -1,5 +1,7 @@
 # Changelog
 
+## Rdune (development version)
+
 ## Rdune 1.1.2
 
 - Adjusted the logo file from .jpg to .png per CRAN’s request
