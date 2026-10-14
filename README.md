@@ -172,11 +172,6 @@ ggplot(
 
 <p align="center">
 
-<img src="man/figures/harkonnen.jpg" height="300" >
-</p>
-
-<p align="center">
-
 <img src="man/figures/harkonnen2.jpg" height="300" >
 </p>
 
