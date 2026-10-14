@@ -1,4 +1,4 @@
-# Rdune ![](reference/figures/logo.jpg)
+# Rdune
 
 The {Rdune} package offers a collection of color palettes inspired by
 ‘Dune’, designed for use in data visualizations and graphics with
