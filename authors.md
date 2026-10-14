@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/nvietto/Rdune/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/nvietto/Rdune/blob/v1.1.2/DESCRIPTION)
 
 Vietto N (2026). *Rdune: 'Creates Color Palettes Inspired by Dune'*. R
 package version 1.1.2, <https://github.com/nvietto/Rdune>.
